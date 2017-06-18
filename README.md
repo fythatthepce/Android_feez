@@ -50,3 +50,7 @@ dependencies {<br>
 4.นำขึ้น PlayStore<br><br>
 <img src=http://www.irishrootsmedia.com/img/products/logo_googleplay.png />
 >> https://www.youtube.com/watch?v=uFwHFLBZBvk<br>
+<br>
+5.Clear string<br>
+>> https://stackoverflow.com/questions/20736863/clear-a-value-from-a-string-android
+<br>
