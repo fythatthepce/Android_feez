@@ -6,7 +6,9 @@
 <br>
 ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.html<br>
 1.colors.xml ใส่ใน AndroidStudioProjects >> ชื่อโปรเจค >> app >> src >> main >> res >> values
-
+<br>
+<img src=https://github.com/fythatthepce/Android_feez/blob/master/pictures/coverg_g-_2013_v2_2120x1192.png/>
+<br>
 2.Genymotion
 >> http://www.akexorcist.com/2014/02/android-dev-tips-plugin-genymotion_23.html
 >> https://www.youtube.com/watch?v=uFwHFLBZBvk
