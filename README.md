@@ -9,14 +9,14 @@ ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.
 <br><br>
 <img src=https://github.com/fythatthepce/Android_feez/blob/master/pictures/coverg_g-_2013_v2_2120x1192.png/>
 <br>
-2.Genymotion
->> http://www.akexorcist.com/2014/02/android-dev-tips-plugin-genymotion_23.html
->> https://www.youtube.com/watch?v=uFwHFLBZBvk
->> https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/th
->> https://docs.google.com/file/d/0B-p1r5SNN4adcmhtaGdMVml0Qzg/edit
->> http://opengapps.org/
+2.Genymotion<br>
+>> http://www.akexorcist.com/2014/02/android-dev-tips-plugin-genymotion_23.html<br>
+>> https://www.youtube.com/watch?v=uFwHFLBZBvk<br>
+>> https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/th<br>
+>> https://docs.google.com/file/d/0B-p1r5SNN4adcmhtaGdMVml0Qzg/edit<br>
+>> http://opengapps.org/<br>
 <br><br>
-3.Downgrade API
+3.Downgrade API<br>
 >> https://stackoverflow.com/questions/34098723/downgrade-android-sdk-api-23-api-21
 <br>
 android {<br>
