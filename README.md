@@ -15,7 +15,7 @@ ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.
 >> https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/th
 >> https://docs.google.com/file/d/0B-p1r5SNN4adcmhtaGdMVml0Qzg/edit
 >> http://opengapps.org/
-
+<br><br>
 3.Downgrade API
 >> https://stackoverflow.com/questions/34098723/downgrade-android-sdk-api-23-api-21
 <br>
