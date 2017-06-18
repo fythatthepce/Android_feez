@@ -13,8 +13,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="121dp"
-        android:layout_marginLeft="148dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginLeft="138dp"
         android:layout_marginStart="138dp"
         android:text="TEST"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:text="CheckBox"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
         app:layout_constraintTop_toBottomOf="@+id/switch1"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/switch1" />
@@ -40,7 +40,7 @@
         android:text="Switch"
         android:layout_marginStart="29dp"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -53,7 +53,7 @@
         android:text="RadioButton"
         android:layout_marginStart="29dp"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="17dp"
         app:layout_constraintTop_toBottomOf="@+id/checkBox"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -74,5 +74,24 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/android"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 </android.support.constraint.ConstraintLayout>

@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     //function 2
     private  void clickBt(View v){
-        Toast.makeText(getBaseContext(),"Hello World Test func Toast",Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(),"Hello World Test func Toast",Toast.LENGTH_SHORT).show();
     }
 
     //function 3 snackbar show text
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         snackbarText_action.setTextSize(20);
         snackbar.show();
 
-    }
+    }//END function 3
 
 
 }// END MainActivity
