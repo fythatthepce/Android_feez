@@ -3,7 +3,8 @@
 <br>
 <img src=https://github.com/fythatthepce/Android_feez/blob/master/pictures/android-studio-logo.png />
 <br>
-ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.html
+<br>
+ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.html<br>
 1.colors.xml ใส่ใน AndroidStudioProjects >> ชื่อโปรเจค >> app >> src >> main >> res >> values
 
 2.Genymotion
@@ -15,33 +16,33 @@ ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.
 
 3.Downgrade API
 >> https://stackoverflow.com/questions/34098723/downgrade-android-sdk-api-23-api-21
+<br>
+android {<br>
+    compileSdkVersion 25<br>
+    buildToolsVersion "25.0.3"<br>
+    defaultConfig {<br>
+        applicationId "com.example.feez.feedroid2"<br>
+        minSdkVersion 16<br>
+        targetSdkVersion 25<br>
+        versionCode 1<br>
+        versionName "1.0"<br>
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"<br>
+    }<br>
+    buildTypes {<br>
+        release {<br>
+            minifyEnabled false<br>
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'<br>
+        }<br>
+    }<br>
+}<br>
 
-android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
-    defaultConfig {
-        applicationId "com.example.feez.feedroid2"
-        minSdkVersion 16
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile ‘com.android.support:design:25.3.1’
-    testCompile 'junit:junit:4.12'
-}
+dependencies {<br>
+    compile fileTree(dir: 'libs', include: ['*.jar'])<br>
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {<br>
+        exclude group: 'com.android.support', module: 'support-annotations'<br>
+    })<br>
+    compile 'com.android.support:appcompat-v7:25.+'<br>
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'<br>
+    compile ‘com.android.support:design:25.3.1’<br>
+    testCompile 'junit:junit:4.12'<br>
+}<br>
