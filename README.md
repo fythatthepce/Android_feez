@@ -11,7 +11,6 @@ ref >> https://developer.android.com/samples/BasicMediaRouter/res/values/colors.
 <br>
 2.Genymotion<br>
 >> http://www.akexorcist.com/2014/02/android-dev-tips-plugin-genymotion_23.html<br>
->> https://www.youtube.com/watch?v=uFwHFLBZBvk<br>
 >> https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/th<br>
 >> https://docs.google.com/file/d/0B-p1r5SNN4adcmhtaGdMVml0Qzg/edit<br>
 >> http://opengapps.org/<br>
@@ -47,4 +46,7 @@ dependencies {<br>
     compile 'com.android.support.constraint:constraint-layout:1.0.2'<br>
     compile ‘com.android.support:design:25.3.1’<br>
     testCompile 'junit:junit:4.12'<br>
-}<br>
+}<br><br><br>
+4.นำขึ้น PlayStore<br><br>
+<img src=http://www.irishrootsmedia.com/img/products/logo_googleplay.png />
+>> https://www.youtube.com/watch?v=uFwHFLBZBvk<br>
