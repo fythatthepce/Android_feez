@@ -10,7 +10,8 @@
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:id="@+id/appBarLayout">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -20,6 +21,16 @@
 
 
     </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
     <!--- END toolbar -->
 
 

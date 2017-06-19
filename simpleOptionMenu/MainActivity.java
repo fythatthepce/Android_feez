@@ -3,10 +3,15 @@ package com.example.feez.simple_option_menu;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,11 +35,16 @@ public class MainActivity extends AppCompatActivity {
         //end toolbar
 
 
+        //textbox
+        EditText editText = (EditText)findViewById(R.id.editText) ;
+        registerForContextMenu(editText);  //Assign context Menu to editText
 
 
     }//main
 
 
+
+    //menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main,menu);
@@ -45,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
         if(id == R.id.action_settings){  //ref to menu setting
-            menuSetting(item);
+
+            showpopupMenu();
             return true;
         }else if(id == R.id.action_help){ //ref to menu help
             menuHelp(item);
@@ -53,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
         }else if(id == R.id.action_search){ //ref to menu search
             menuSearch(item);
             return true;
+
+
+            //use edit_popup_menu.xml is better
         }else if(id == R.id.submenu_google){  //SUB MENU
             subGoogle(item);
             return true;
@@ -89,7 +103,72 @@ public class MainActivity extends AppCompatActivity {
     //fuction subYoutube
     private void subYoutube(MenuItem item){
         Toast.makeText(getBaseContext(),"Search",Toast.LENGTH_SHORT).show();
+    }//end menu
+
+    //popup
+    private  void showpopupMenu(){
+        View v = findViewById(R.id.action_settings);
+        PopupMenu popupmenu = new PopupMenu(this,v);
+        popupmenu.inflate(R.menu.edit_popup_menu); //xml >> java
+        popupmenu.show();
+
+        //popup wait and action
+        popupmenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                int id = item.getItemId();
+                if(id == R.id.set_date){
+                    setDate();
+                    return true;
+                }else if(id == R.id.set_month){
+                    setMonth();
+                    return true;
+                }
+                return false;
+            }
+        });
     }
+
+    private void setDate(){
+        Toast.makeText(getBaseContext(),"Set Date",Toast.LENGTH_SHORT).show();
+    }
+
+    private void setMonth(){
+        Toast.makeText(getBaseContext(),"Set Month",Toast.LENGTH_SHORT).show();
+    }
+
+
+
+
+
+    //context menu
+    @Override
+    public void onCreateContextMenu(ContextMenu contextMenu, View v, ContextMenu.ContextMenuInfo info){
+        super.onCreateContextMenu(contextMenu,v,info);
+        contextMenu
+                .setHeaderTitle("Select process")
+                .setHeaderIcon(R.mipmap.ic_launcher);
+
+        //แปลง xml เป็น java
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_edit,contextMenu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == R.id.menu_cut){
+            return true;
+        }
+        if(id == R.id.menu_copy){
+            return true;
+        }
+        if(id == R.id.menu_paste){
+            return true;
+        }
+        return super.onContextItemSelected(item);
+    }
+    //end context menu
 
 
 
