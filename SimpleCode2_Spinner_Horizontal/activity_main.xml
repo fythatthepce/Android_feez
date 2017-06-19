@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context="com.example.feez.feedroid3.MainActivity">
 
+    <!--- toolbar -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme" />
+
+
+    </android.support.design.widget.AppBarLayout>
+    <!--- END toolbar -->
+
+
+
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
