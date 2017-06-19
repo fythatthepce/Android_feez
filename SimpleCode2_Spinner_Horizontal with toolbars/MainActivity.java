@@ -36,9 +36,13 @@ public class MainActivity extends AppCompatActivity { //Scope
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //toolbar.setTitle("FEEz App");
-        toolbar.setSubtitle("Test");
-        toolbar.setTitleTextColor(Color.RED);
-        toolbar.setBackgroundColor(Color.YELLOW);
+        toolbar.setBackgroundColor(Color.rgb(255, 128, 0));
+        toolbar.setTitleTextColor(Color.WHITE);   //@string/app_name
+        toolbar.setSubtitle("by Android Studio");
+        toolbar.setSubtitleTextColor(Color.WHITE);
+        toolbar.setLogo(R.drawable.apple);
+
+
 
 
 
