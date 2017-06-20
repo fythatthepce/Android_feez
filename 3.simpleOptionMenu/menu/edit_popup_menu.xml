@@ -12,6 +12,4 @@
         android:id="@+id/set_month"
         android:title="Set month ..." />
 
-
-
 </menu>

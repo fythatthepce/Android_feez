@@ -4,6 +4,13 @@
     tools:context=".MainActivity">
 
     <item
+        android:id="@+id/action_spinner"
+        android:title="Spinner"
+
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always"/>
+
+    <item
         android:id="@+id/action_settings"
         android:title="ตั้งค่า"
         android:icon="@drawable/setting"
@@ -15,8 +22,10 @@
         android:title="ค้นหา"
         android:icon="@drawable/icon"
         android:enabled="true"
-        app:showAsAction="always">
+        app:showAsAction="always"/>
 
+        <!-- submenu
+        app:showAsAction="always">
         <menu>
             <item
                 android:id="@+id/submenu_google"
@@ -27,6 +36,7 @@
                 android:title="youtube"/>
         </menu>
     </item>
+    -->
 
     <item
         android:id="@+id/action_help"
