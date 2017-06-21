@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Fee_Fragment_test1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/feez/AndroidStudioProjects/Fee_Fragment_test1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_73bd8028afc7961f7b2151d72583ae25ad1b74ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Fee_Fragment_test1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e8d5d1c93c14aeafc7978d42be7dd1817413de8">
+        <dex dex="/Users/feez/AndroidStudioProjects/Fee_Fragment_test1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c2f8779348debd923ab43b26c0c2c8721f9e75a/classes.dex" />
+    </item>
+
+</items>

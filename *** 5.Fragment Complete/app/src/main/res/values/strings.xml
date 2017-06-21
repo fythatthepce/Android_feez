@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fee_Fragment_test1</string>
+    <string name="title_activity_main_tab">DATA STORE</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
+    <string name="fragment1_name">HOME</string>
+    <string name="fragment2_name">MENU</string>
+</resources>
