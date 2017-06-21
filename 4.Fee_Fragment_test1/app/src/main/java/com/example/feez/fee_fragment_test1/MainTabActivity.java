@@ -1,5 +1,6 @@
 package com.example.feez.fee_fragment_test1;
 
+import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.support.v4.content.ContextCompat;
 
 public class MainTabActivity extends AppCompatActivity {
 
@@ -127,9 +129,10 @@ public class MainTabActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "json tab";
+                    return getString(R.string.fragment1_name);
+
                 case 1:
-                    return "xml tab";
+                    return getString(R.string.fragment2_name);
 
             }
             return null;
