@@ -1,11 +1,14 @@
 package com.example.feez.fee_fragment_test1;
 
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
 
 
 /**
@@ -46,9 +49,13 @@ public class FeedXMLFragment extends Fragment {
         return fragment;
     }
 
+
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -59,7 +66,20 @@ public class FeedXMLFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_feed_xml, container, false);
+        //return inflater.inflate(R.layout.fragment_feed_xml, container, false);
+        //CODE HERE
+        View v = inflater.inflate(R.layout.fragment_feed_xml, container, false);
+        Button button = (Button)v.findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(),"Hello world",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        return v;
+
     }
 
-}
+}//END Scope
