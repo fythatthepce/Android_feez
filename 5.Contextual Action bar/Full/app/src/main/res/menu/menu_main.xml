@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_spinner"
+        android:title="Spinner"
+
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="ตั้งค่า"
+        android:icon="@drawable/setting"
+        android:enabled="true"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:title="ค้นหา"
+        android:icon="@drawable/icon"
+        android:enabled="true"
+        app:showAsAction="always"/>
+
+        <!-- submenu
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/submenu_google"
+                android:title="google"/>
+
+            <item
+                android:id="@+id/submenu_youtube"
+                android:title="youtube"/>
+        </menu>
+    </item>
+    -->
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/help"
+        android:title="ช่วยเหลือ"
+        android:enabled="true"
+        app:showAsAction="always"/>
+
+
+</menu>

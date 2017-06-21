@@ -1,0 +1,68 @@
+package com.example.tanujitmongaiem93.contextualactionbar;
+
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.view.ActionMode;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ImageView;
+
+
+
+
+
+public class MainActivity extends AppCompatActivity {
+
+    private ActionMode mActionMode;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ImageView imageView = (ImageView) findViewById(R.id.imageView);
+
+        imageView.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                if (mActionMode == null){
+                    mActionMode = startActionMode(callback);
+                }
+            }
+        });
+    }
+    private ActionMode.Callback callback = new ActionMode.Callback(){
+
+        @Override
+        public boolean onCreateActionMode(ActionMode mode, Menu menu) {
+            getMenuInflater().inflate(R.menu.contextual_actionbar,menu);
+            mode.setTitle("...");
+            return true;
+        }
+
+        @Override
+        public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+            return false;
+        }
+
+        @Override
+        public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+            int id = item.getItemId();
+            if(id == R.id.action_edit){
+
+            }else if(id == R.id.action_share){
+
+            }
+            return  true;
+        }
+
+        @Override
+        public void onDestroyActionMode(ActionMode mode) {
+            mActionMode = null;
+        }
+    };
+}

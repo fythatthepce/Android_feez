@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="78bd2f47491520948457717e02ee71f8fa7eb9b2">
+        <dex dex="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_718ad718e7af555477f7424fb2cc0e82e992b820/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="308167552907a69db5fc9723ad62a26d2ff8bfa2">
+        <dex dex="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_718ad718e7af555477f7424fb2cc0e82e992b820/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5b0e7503a6d685448a0a4a5ffd2a2c034dc5e134/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/feez/AndroidStudioProjects/Simple_option_Menu/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5b0e7503a6d685448a0a4a5ffd2a2c034dc5e134/classes.dex" />
+    </item>
+
+</items>
