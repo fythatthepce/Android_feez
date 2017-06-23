@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/f3362cfb45fb27f66847555dac2ee555acadd0ec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f414b0d5cc3aecfaf51f689ebb6d05da6241361d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/a830cb43f115bef141670a995d649cef83979da6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0dda75931a73661205d15fe2cf8e642538e6fa61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/02db0f19073efad22b5d9556cd625a78777d981e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e5caf5830d79e729215c2b1ba3544955f8188601/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/1ac39ae06667855ac573a87c79e55b1eba574c1c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d4af865243e0b7188119d380351ca3131efa25c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4e809b51e38fd2cbd7e6d30bd007684d092044e">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a95e63409b20fc0992148a8ecf9b5e60f6d93c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/d8409c9ec2778f7715cd344b4a774ce4813a8f97/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5971420e788a77dac48c2ed2d37b75cace34ea5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/53b432e93889b980f3e7de829e3451dec2be8b2a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a16ada0e9e41b655e4b3aebfe2a0f0903f06da8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/e524821a9c499c79d518c66ba28798a16fe2a280/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2454f1c6f35acb670532dbdffdbecdbbd7a8a1c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9d5ab7544a484d39e9e78d4ffdcd57bee41e4a16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="996b53e74f489c3f7244db7e59b9731f3280c2b3">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a95e63409b20fc0992148a8ecf9b5e60f6d93c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.0_85f089667c3e825b44d38cf5112e0d0e0247f783/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/1bfd1dc2f111713e37d95b5bd2559bcc75f34774/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3c26fabd4e6a112b3e18f8e694fc4f218b503e68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9d5ab7544a484d39e9e78d4ffdcd57bee41e4a16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/0c797d80311515b3cd3d4388fe69c8e589bf78a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a343a0a80321035ea54babaf34552e1600addfec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/19a4b1269f79ebb90687502f405db59b1284def4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2517aab4be3c4f331cc81db90295e9abca6c3760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/feez/.android/build-cache/caf9febb91384ea2c371baf85e0708ddf9ed08aa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/feez/AndroidStudioProjects/media_video_intent/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ada6687092490d5d9daec1bc5a36883602420ecb/classes.dex" />
+    </item>
+
+</items>
