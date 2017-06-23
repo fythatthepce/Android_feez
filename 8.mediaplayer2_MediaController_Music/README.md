@@ -1,7 +1,7 @@
 # Android_feez
 <br>
 <br>
-Bug fix ดังนี้
+Bug fix ดังนี้<br>
 
-//import android.media.session.MediaController;
-import android.widget.MediaController;
+//import android.media.session.MediaController;<br>
+import android.widget.MediaController;<br>
